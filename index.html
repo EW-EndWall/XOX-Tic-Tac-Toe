@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>XOX Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>XOX Game</h1>
+    <div class="game-board">
+      <span class="cell" id="cell-0" onclick="cellClicked(0)"></span>
+      <span class="cell" id="cell-1" onclick="cellClicked(1)"></span>
+      <span class="cell" id="cell-2" onclick="cellClicked(2)"></span>
+      <span class="cell" id="cell-3" onclick="cellClicked(3)"></span>
+      <span class="cell" id="cell-4" onclick="cellClicked(4)"></span>
+      <span class="cell" id="cell-5" onclick="cellClicked(5)"></span>
+      <span class="cell" id="cell-6" onclick="cellClicked(6)"></span>
+      <span class="cell" id="cell-7" onclick="cellClicked(7)"></span>
+      <span class="cell" id="cell-8" onclick="cellClicked(8)"></span>
+      <span class="cell" id="cell-9" onclick="cellClicked(9)"></span>
+    </div>
+    <div class="scoreboard">
+      <h2>Player : ( <span id="player-turn">X</span> )</h2>
+      <div class="players">
+        <table>
+          <tr>
+            <td>X Player:</td>
+            <td id="player-x-score">0</td>
+          </tr>
+          <tr>
+            <td>O Player:</td>
+            <td id="player-o-score">0</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
